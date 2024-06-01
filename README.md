@@ -30,6 +30,11 @@ This repository shows how to compile Foundation Models (FMs) such as `Meta-Llama
 
 1. Download and install [Conda](https://www.anaconda.com/download#linux) on your EC2 VM.
 1. Clone this repo on the EC2 VM.
+    
+    ```{.bash}
+    git clone https://github.com/aarora79/compile-llm-for-aws-silicon.git
+    ```
+
 1. Create a new conda environment for `Python 3.10` and install the packages listed in `requirements.txt`.
 
     ```{.bash}
