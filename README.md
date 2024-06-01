@@ -29,6 +29,7 @@ This repository shows how to compile Foundation Models (FMs) such as `Meta-Llama
 ## High level steps
 
 1. Download and install [Conda](https://www.anaconda.com/download#linux) on your EC2 VM.
+1. Clone this repo on the EC2 VM.
 1. Create a new conda environment for `Python 3.10` and install the packages listed in `requirements.txt`.
 
     ```{.bash}
@@ -36,7 +37,7 @@ This repository shows how to compile Foundation Models (FMs) such as `Meta-Llama
     source activate awschips_py310;
     pip install -r requirements.txt
     ```
-1. Clone this repo on the EC2 VM.
+
 1. Change directory to the code repo directory.
 1. Run the `download_compile_deploy.sh` script using the following command. This script will do a bunch of things:
     1. Download the model from Hugging Face.
