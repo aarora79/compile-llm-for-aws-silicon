@@ -56,7 +56,7 @@ This repository shows how to compile Foundation Models (FMs) such as `Meta-Llama
     batch_size=4
     num_neuron_cores=8
     ml_instance_type=ml.trn1.32xlarge
-    role="arn:aws:iam::<your-account-id>:role/SageMakerRepoRole"
+    role="arn:aws:iam::<your-account-id>:role/<your-role-name>"
     ./scripts/download_compile_deploy.sh $hf_token \
      $model_id \
      $neuron_version \
